@@ -9,7 +9,7 @@
 </span>
 
 This is a real time **face recognition** system in which the software recognizes the registered person.First of all, the employees
-must get themselves enlisted in the system and then during the time of attendance, the webcam will display their picture with the audio of **registered successfully**.The record of each employee will be stored in the file where it will keep all the information about their arrival so that the organisation will be able to calculate the exact wages you owe to your employees.
+must get themselves enlisted in the system and then during the time of attendance, a frame will display their picture with the audio of **registered successfully**.The record of each employee will be stored in the file where it will keep all the information about their arrival so that the organisation will be able to calculate the exact wages they owe to their employees.
 
 ----
 ## 🛠 &nbsp;<span style="color: #f2cf4a; font-family: Babas; font-size: 1.4em;">Tech Stack
@@ -25,19 +25,17 @@ must get themselves enlisted in the system and then during the time of attendanc
 - The first thing to do is to clone the repository:
 
 ```sh
-
 $ git clone https://github.com/Lovekesh-GH/attendance.git
 $ cd attendance
-
 ```
 
 
 - Create a virtual environment to install dependencies in and activate it:
 
-  ```sh
-    $ python3 -m venv venv
-    $ source venv/bin/activate
-    ```
+```sh
+$ python3 -m venv venv
+$ source venv/bin/activate
+```
 
 
 > This project files requires **Python 3** and the following Python libraries installed:
